@@ -1,0 +1,18 @@
+Computação em nuvem
+
+A computação em nuvem é a disponibilização de recursos de computação, como armazenamento, bancos de dados, rede, software, análise e inteligência, por meio da internet. 
+A computação em nuvem permite que empresas e indivíduos acessem recursos computacionais sob demanda, sem a necessidade de comprar e manter uma infraestrutura física. 
+Os benefícios da computação em nuvem incluem: 
+
+- Flexibilidade
+- Inovação mais rápida
+- Economias de escala
+- Alta disponibilidade
+- Backup de dados
+- Provisionamento automático de recursos
+
+Existem diferentes tipos de computação em nuvem, como nuvem pública, nuvem privada e nuvem híbrida. 
+Alguns exemplos de provedores de nuvem são: Amazon Web Services (AWS), Google Cloud, Microsoft Azure. 
+
+-------------------------------------------------------------------------------
+
