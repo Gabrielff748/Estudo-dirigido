@@ -67,3 +67,58 @@ Exemplo: Criação de backups regulares para garantir a recuperação de informa
 Educação e Treinamento:
 
 Exemplo: Treinamento de funcionários para evitar ataques de phishing e outros golpes.
+
+
+
+-------------
+
+        <aside>
+            <div>
+                <nav>
+                    <ul>
+                        <li>
+                            <strong> <!--computação em nuvem-->
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                            </strong>
+                            
+                            <strong>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                            </strong>
+
+                            <strong>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                            </strong>
+                        </li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </nav>
+            </div>
+        </aside>
