@@ -1,16 +1,119 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Segurança de Informação</title>
+    <title>Index</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: black;
+            color: white;
+        }
+        .sidebar {
+            background-color: rgb(48, 9, 48);
+            height: 100vh;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 250px;
+            padding-top: 20px;
+        }
+        .main-content {
+            margin-left: 250px;
+            padding: 20px;
+        }
+        .nav-link, h4, h2 {
+            color: white;
+        }
+        .topic-image {
+            width: 100%;
+            max-width: 600px;
+            display: block;
+            margin-top: 10px;
+        }
+    </style>
 </head>
 <body>
-    
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Sidebar -->
+            <nav class="col-md-3 col-lg-2 d-md-block sidebar p-3">
+                <h4 class="text-center">
+                    <img src="./imagens/logo dicionário sem fundo.png" alt="Logo" width="30" height="30" class="me-2"> Temas
+                </h4>
+                <ul class="nav flex-column">
+                    <li class="nav-item"><a href="http://127.0.0.1:5500/Computacao-em-nuvem.html" class="nav-link">Computação em Nuvem</a></li>
+                    <li class="nav-item"><a href="http://127.0.0.1:5500/hardwares.html" class="nav-link">Hardware</a></li>
+                    <li class="nav-item"><a href="http://127.0.0.1:5500/Seguranca-de-informacao.html" class="nav-link">Segurança da Informação</a></li>
+                </ul>
+            </nav>
 
+            <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4 main-content">
+                <section id="seguranca-informacao" class="pt-5">
+                    <h2>Princípios da Segurança da Informação (Confidencialidade, Integridade e Disponibilidade)</h2>
+                    <p>Confidencialidade refere-se à proteção contra acessos não autorizados, garantindo que apenas indivíduos autorizados possam acessar informações. Integridade assegura que os dados não sejam alterados indevidamente durante seu armazenamento ou transmissão. Disponibilidade garante que as informações estejam acessíveis quando necessário para usuários autorizados.</p>
+                    <img src="./imagens/principios_seg_informacao.jpg" alt="Princípios da Segurança da Informação" class="topic-image">
+                </section>
+                
+                <section class="pt-5">
+                    <h2>Criptografia de Dados</h2>
+                    <p>A criptografia é a técnica usada para transformar informações legíveis em códigos ilegíveis sem a chave correta. Esse processo é essencial para proteger dados confidenciais, como transações bancárias, mensagens privadas e informações armazenadas em servidores.</p>
+                    <img src="./imagens/criptografia_dados.jpg" alt="Criptografia de Dados" class="topic-image">
+                </section>
+                
+                <section class="pt-5">
+                    <h2>Autenticação e Controle de Acesso</h2>
+                    <p>Para garantir que apenas usuários autorizados tenham acesso a sistemas sensíveis, são implementados métodos como senhas fortes, autenticação de dois fatores (2FA) e biometria, como impressões digitais ou reconhecimento facial. Esses métodos reforçam a segurança contra acessos não autorizados.</p>
+                    <img src="./imagens/autenticacao_controle.jpg" alt="Autenticação e Controle de Acesso" class="topic-image">
+                </section>
+                
+                <section class="pt-5">
+                    <h2>Ameaças Cibernéticas</h2>
+                    <p>As ameaças cibernéticas incluem vírus, malwares, ransomware, phishing, ataques de negação de serviço (DDoS) e outros tipos de ataques online. Para mitigar esses riscos, as empresas investem em firewalls, antivírus e outras ferramentas de segurança para proteger seus sistemas contra invasões e danos.</p>
+                    <img src="./imagens/ameacas_ciberneticas.jpg" alt="Ameaças Cibernéticas" class="topic-image">
+                </section>
+                
+                <section class="pt-5">
+                    <h2>Firewall e Segurança de Redes</h2>
+                    <p>Firewalls são dispositivos ou software que monitoram e controlam o tráfego de rede, bloqueando acessos suspeitos ou não autorizados. Além disso, redes privadas virtuais (VPNs) são usadas para garantir conexões seguras entre usuários remotos e sistemas corporativos.</p>
+                    <img src="./imagens/firewall_seguranca_rede.jpg" alt="Firewall e Segurança de Redes" class="topic-image">
+                </section>
+                
+                <section class="pt-5">
+                    <h2>Backup e Recuperação de Dados</h2>
+                    <p>Estratégias de backup como a utilização de nuvem e redundância de servidores são essenciais para proteger os dados contra falhas de hardware ou ataques cibernéticos. A recuperação de dados é uma parte crítica, garantindo que informações vitais possam ser restauradas rapidamente em caso de perda ou corrupção.</p>
+                    <img src="./imagens/backup_recuperacao_dados.jpg" alt="Backup e Recuperação de Dados" class="topic-image">
+                </section>
+                
+                <section class="pt-5">
+                    <h2>Políticas de Segurança da Informação</h2>
+                    <p>As empresas devem estabelecer políticas e normas para garantir o uso seguro de sistemas. Isso inclui restrições de acesso, controle sobre dispositivos externos, como pen drives, e auditorias periódicas para detectar falhas de segurança ou comportamentos suspeitos.</p>
+                    <img src="./imagens/politicas_seguranca_informacao.jpg" alt="Políticas de Segurança da Informação" class="topic-image">
+                </section>
+                
+                <section class="pt-5">
+                    <h2>Ataques de Engenharia Social</h2>
+                    <p>A engenharia social é uma técnica usada por cibercriminosos para manipular pessoas a fornecerem informações confidenciais. Exemplos incluem phishing (envio de e-mails falsos para enganar os usuários) e pretexting (falsificação de identidade para obter acesso a dados).</p>
+                    <img src="./imagens/engenharia_social.jpg" alt="Ataques de Engenharia Social" class="topic-image">
+                </section>
+                
+                <section class="pt-5">
+                    <h2>Normas e Regulamentações de Segurança</h2>
+                    <p>Leis como a **Lei Geral de Proteção de Dados (LGPD)** no Brasil e o **Regulamento Geral sobre a Proteção de Dados (GDPR)** na União Europeia obrigam as empresas a proteger dados pessoais e garantir a privacidade dos usuários. O cumprimento dessas leis é essencial para evitar multas e danos à reputação.</p>
+                    <img src="./imagens/normas_regulamentacoes_seguranca.jpg" alt="Normas e Regulamentações de Segurança" class="topic-image">
+                </section>
+                
+                <section class="pt-5">
+                    <h2>Tendências em Segurança da Informação</h2>
+                    <p>As tendências emergentes em segurança da informação incluem **Zero Trust Security**, que assume que nenhuma rede interna ou externa é confiável, **Inteligência Artificial** para detectar padrões de ameaças e **Blockchain** como uma ferramenta para proteger dados contra fraudes e manipulação.</p>
+                    <img src="./imagens/tendencias_seguranca_informacao.jpg" alt="Tendências em Segurança da Informação" class="topic-image">
+                </section>
+                
 
-
-
+            </main>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

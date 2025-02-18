@@ -1,42 +1,76 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <title>Index</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
-        </style>
-    
-    <title>Document</title>
+        body {
+            background-color: black;
+            color: white;
+        }
+        .sidebar {
+            background-color: rgb(48, 9, 48);
+            height: 100vh;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 250px;
+            padding-top: 20px;
+        }
+        .main-content {
+            margin-left: 250px;
+            padding: 20px;
+        }
+        .nav-link, h4, h2 {
+            color: white;
+        }
+        .topic-image {
+            width: 100%;
+            max-width: 600px;
+            display: block;
+            margin-top: 10px;
+        }
+    </style>
 </head>
 <body>
-    
-    <header> <!--CAbeçalho-->
-        <div class="logo"> <!--espaço da logo-->
-            <a href="index.html">
-                <img src="imagens/logo dicionário sem fundo.png" width="180" height="180" alt="Logo Dicionário">
-            </a>
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Sidebar -->
+            <nav class="col-md-3 col-lg-2 d-md-block sidebar p-3">
+                <h4 class="text-center">
+                    <img src="./imagens/logo dicionário sem fundo.png" alt="Logo" width="30" height="30" class="me-2"> Temas
+                </h4>
+                <ul class="nav flex-column">
+                    <li class="nav-item"><a href="http://127.0.0.1:5500/Computacao-em-nuvem.html" class="nav-link">Computação em Nuvem</a></li>
+                    <li class="nav-item"><a href="http://127.0.0.1:5500/hardwares.html" class="nav-link">Hardware</a></li>
+                    <li class="nav-item"><a href="http://127.0.0.1:5500/Seguranca-de-informacao.html" class="nav-link">Segurança da Informação</a></li>
+                </ul>
+            </nav>
+            
+            <!-- Main Content -->
+            <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4 main-content">
+                <section id="computacao-nuvem" class="pt-5">
+                    <a href="http://127.0.0.1:5500/Computacao-em-nuvem.html"><h2>Computação em Nuvem</h2></a>
+                    <p>A computação em nuvem oferece três principais modelos: IaaS, PaaS e SaaS...</p>
+                    <img src="./imagens/computacao_nuvem.jpg" alt="Computação em Nuvem" class="topic-image">
+                </section>
+                
+                <section id="hardware" class="pt-5">
+                    <a href="http://127.0.0.1:5500/hardwares.html"><h2>Hardware</h2></a>
+                    <p>Os principais componentes internos de um computador incluem CPU, memória RAM...</p>
+                    <img src="./imagens/hardware.jpg" alt="Hardware" class="topic-image">
+                </section>
+                
+                <section id="seguranca" class="pt-5">
+                    <a href="http://127.0.0.1:5500/Seguranca-de-informacao.html"><h2>Segurança da Informação</h2></a>
+                    <p>Os princípios CIA da segurança da informação incluem Confidencialidade, Integridade e Disponibilidade...</p>
+                    <img src="./imagens/seguranca.jpg" alt="Segurança da Informação" class="topic-image">
+                </section>
+            </main>
         </div>
-
-        <nav>
-            <ul>
-                <li><a href="">COMPUTAÇÃO EM NUVEM</a></li>
-                <li><a href="">SEGURANÇA DA INFORMAÇÃO</a></li>
-                <li><a href="">DEFINIÇÃO DE HARDWARE</a></li>
-            </ul>
-        </nav>
-    </header> <!--CAbeçalho-->
-
-    <main> <!--CORPO-->
-        <h1 class="fira-sans-thin">Teste 1</h1>
-        <h1 class="fira-sans-extralight">Teste 1</h1>
-        <h1 class="fira-sans-light">Teste 1</h1>
-        <h1 class="fira-sans-regular">Teste 1</h1>
-    </main> <!--CORPO-->
-    
-    <footer>
-
-    </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

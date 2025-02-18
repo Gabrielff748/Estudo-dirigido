@@ -1,16 +1,116 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Hardwares</title>
+    <title>Index</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: black;
+            color: white;
+        }
+        .sidebar {
+            background-color: rgb(48, 9, 48);
+            height: 100vh;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 250px;
+            padding-top: 20px;
+        }
+        .main-content {
+            margin-left: 250px;
+            padding: 20px;
+        }
+        .nav-link, h4, h2 {
+            color: white;
+        }
+        .topic-image {
+            width: 100%;
+            max-width: 600px;
+            display: block;
+            margin-top: 10px;
+        }
+    </style>
 </head>
 <body>
-    
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Sidebar -->
+            <nav class="col-md-3 col-lg-2 d-md-block sidebar p-3">
+                <h4 class="text-center">
+                    <img src="./imagens/logo dicionário sem fundo.png" alt="Logo" width="30" height="30" class="me-2"> Temas
+                </h4>
+                <ul class="nav flex-column">
+                    <li class="nav-item"><a href="http://127.0.0.1:5500/Computacao-em-nuvem.html" class="nav-link">Computação em Nuvem</a></li>
+                    <li class="nav-item"><a href="http://127.0.0.1:5500/hardwares.html" class="nav-link">Hardware</a></li>
+                    <li class="nav-item"><a href="http://127.0.0.1:5500/Seguranca-de-informacao.html" class="nav-link">Segurança da Informação</a></li>
+                </ul>
+            </nav>
+        </div>
 
+        <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4 main-content">
+            <section id="computacao-nuvem" class="pt-5">
+                <h2>Modelos de Serviço em Nuvem</h2>
+                <p>Existem três principais modelos de serviço na computação em nuvem: IaaS (Infraestrutura como Serviço), PaaS (Plataforma como Serviço) e SaaS (Software como Serviço). O IaaS oferece recursos de infraestrutura, como servidores e armazenamento. O PaaS fornece um ambiente para desenvolvimento de aplicativos. O SaaS disponibiliza softwares prontos para uso via internet.</p>
+                <img src="./imagens/computacao_nuvem.jpg" alt="Computação em Nuvem" class="topic-image">
+            </section>
+            
+            <section class="pt-5">
+                <h2>Vantagens da Computação em Nuvem</h2>
+                <p>Permite redução de custos com infraestrutura, alta escalabilidade, acesso remoto, segurança aprimorada e facilidade na gestão de TI. Empresas podem focar em inovação sem precisar gerenciar servidores físicos.</p>
+                <img src="./imagens/vantagens_nuvem.jpg" alt="Vantagens da Nuvem" class="topic-image">
+            </section>
+            
+            <section class="pt-5">
+                <h2>Tipos de Nuvem</h2>
+                <p>Os principais tipos são nuvem pública, privada e híbrida. A nuvem pública é oferecida por provedores como AWS, Google Cloud e Azure. A nuvem privada é exclusiva de uma organização. A nuvem híbrida combina os dois modelos para maior flexibilidade.</p>
+                <img src="./imagens/tipos_nuvem.jpg" alt="Tipos de Nuvem" class="topic-image">
+            </section>
+            
+            <section class="pt-5">
+                <h2>Segurança na Computação em Nuvem</h2>
+                <p>Envolve práticas como criptografia, controle de acesso e monitoramento contínuo para proteger dados. A segurança é responsabilidade compartilhada entre o provedor e o cliente.</p>
+                <img src="./imagens/seguranca_nuvem.jpg" alt="Segurança na Nuvem" class="topic-image">
+            </section>
+            
+            <section class="pt-5">
+                <h2>Virtualização na Nuvem</h2>
+                <p>A virtualização é a tecnologia que permite a criação de máquinas virtuais dentro de servidores físicos. Isso melhora o uso dos recursos computacionais e facilita a escalabilidade.</p>
+                <img src="./imagens/virtualizacao_nuvem.jpg" alt="Virtualização na Nuvem" class="topic-image">
+            </section>
 
+            <section class="pt-5">
+                <h2>Armazenamento em Nuvem</h2>
+                <p>Serviços como Google Drive, OneDrive e Dropbox oferecem armazenamento online seguro e acessível de qualquer lugar. Empresas utilizam soluções como Amazon S3 para gerenciar grandes volumes de dados.</p>
+                <img src="./imagens/Armazenamento_em_Nuvem.jpg" alt="Virtualização na Nuvem" class="topic-image">
+            </section>
 
-    
+            <section class="pt-5">
+                <h2>Backup e Recuperação de Dados</h2>
+                <p>A nuvem permite backups automáticos, garantindo a recuperação de dados em caso de falhas ou ataques cibernéticos. O Disaster Recovery as a Service (DRaaS) é uma solução para recuperação rápida.</p>
+                <img src="./imagens/Backup_e_Recuperação_de_Dados.jpg" alt="Virtualização na Nuvem" class="topic-image">
+            </section>
+
+            <section class="pt-5">
+                <h2>Desempenho e Latência na Nuvem</h2>
+                <p>A escolha do provedor e da localização dos servidores impacta a velocidade de acesso e a latência. CDNs (Content Delivery Networks) ajudam a melhorar a distribuição de conteúdo globalmente.</p>
+                <img src="./imagens/Desempenho_e_Latência_na_Nuvem.jpg" alt="Virtualização na Nuvem" class="topic-image">
+            </section>
+
+            <section class="pt-5">
+                <h2>Custos da Computação em Nuvem</h2>
+                <p>Modelos de pagamento como Pay-as-you-go (pague pelo uso) ajudam a reduzir custos. No entanto, o uso inadequado pode gerar gastos inesperados se os recursos não forem otimizados.</p>
+                <img src="./imagens/Custos_da_Computação_em_Nuvem.jpg" alt="Virtualização na Nuvem" class="topic-image">
+            </section>
+
+            <section class="pt-5">
+                <h2>Tendências Futuras da Computação em Nuvem</h2>
+                <p>Edge Computing, Inteligência Artificial e Multi-Cloud são algumas das tendências. O Edge Computing reduz a latência ao processar dados mais próximos do usuário.</p>
+                <img src="./imagens/Tendências_Futuras_da_Computação_em_Nuvem.jpg" alt="Virtualização na Nuvem" class="topic-image">
+            </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

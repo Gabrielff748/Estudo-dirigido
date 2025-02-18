@@ -1,12 +1,118 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Computação em Nuvem</title>
+    <title>Index</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: black;
+            color: white;
+        }
+        .sidebar {
+            background-color: rgb(48, 9, 48);
+            height: 100vh;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 250px;
+            padding-top: 20px;
+        }
+        .main-content {
+            margin-left: 250px;
+            padding: 20px;
+        }
+        .nav-link, h4, h2 {
+            color: white;
+        }
+        .topic-image {
+            width: 100%;
+            max-width: 600px;
+            display: block;
+            margin-top: 10px;
+        }
+    </style>
 </head>
 <body>
-    
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Sidebar -->
+            <nav class="col-md-3 col-lg-2 d-md-block sidebar p-3">
+                <h4 class="text-center">
+                    <img src="./imagens/logo dicionário sem fundo.png" alt="Logo" width="30" height="30" class="me-2"> Temas
+                </h4>
+                <ul class="nav flex-column">
+                    <li class="nav-item"><a href="http://127.0.0.1:5500/Computacao-em-nuvem.html" class="nav-link">Computação em Nuvem</a></li>
+                    <li class="nav-item"><a href="http://127.0.0.1:5500/hardwares.html" class="nav-link">Hardware</a></li>
+                    <li class="nav-item"><a href="http://127.0.0.1:5500/Seguranca-de-informacao.html" class="nav-link">Segurança da Informação</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4 main-content">
+            <section id="computacao-nuvem" class="pt-5">
+                <h2>Componentes Internos do Computador</h2>
+                <p>Incluem processador (CPU), memória RAM, placa-mãe, HD/SSD e fontes de alimentação. Trabalham em conjunto para executar instruções e processar dados.</p>
+                <img src="" alt="ClocarImagemAqui" class="topic-image">
+            </section>
+            
+            <section class="pt-5">
+                <h2>Processador (CPU)</h2>
+                <p>Considerado o "cérebro" do computador, a CPU executa cálculos e instruções. Sua velocidade é medida em GHz e pode ter múltiplos núcleos para maior eficiência.</p>
+                <img src="" alt="ClocarImagemAqui" class="topic-image">
+            </section>
+            
+            <section class="pt-5">
+                <h2>Memória RAM</h2>
+                <p>Armazena temporariamente os dados em uso pelo sistema e aplicativos. Quanto maior a RAM, mais rápido o computador executa tarefas simultâneas.</p>
+                <img src="" alt="ClocarImagemAqui" class="topic-image">
+            </section>
+            
+            <section class="pt-5">
+                <h2>Armazenamento: HD vs. SSD</h2>
+                <p>O HD (disco rígido) usa partes mecânicas, sendo mais lento e barato. O SSD (unidade de estado sólido) usa chips de memória, sendo muito mais rápido e durável.</p>
+                <img src="" alt="ClocarImagemAqui" class="topic-image">
+            </section>
+            
+            <section class="pt-5">
+                <h2>Placa-Mãe</h2>
+                <p>Conecta todos os componentes do computador e determina a compatibilidade entre processadores, memórias e periféricos.</p>
+                <img src="" alt="ClocarImagemAqui" class="topic-image">
+            </section>
+            
+            <section class="pt-5">
+                <h2>Dispositivos de Entrada e Saída</h2>
+                <p>Entrada: Teclados, mouses, scanners e microfones permitem enviar informações para o computador.<br>
+                Saída: Monitores, caixas de som e impressoras exibem os dados processados.</p>
+                <img src="" alt="ClocarImagemAqui" class="topic-image">
+            </section>
+            
+            <section class="pt-5">
+                <h2>Placa de Vídeo (GPU)</h2>
+                <p>Responsável pelo processamento gráfico. GPUs são essenciais para jogos, edição de vídeos e inteligência artificial.</p>
+                <img src="" alt="ClocarImagemAqui" class="topic-image">
+            </section>
+            
+            <section class="pt-5">
+                <h2>Periféricos e Conectividade</h2>
+                <p>Incluem impressoras, webcams, pen drives e dispositivos Bluetooth/Wi-Fi para expandir as funcionalidades do sistema.</p>
+                <img src="" alt="ClocarImagemAqui" class="topic-image">
+            </section>
+            
+            <section class="pt-5">
+                <h2>Hardware e Software: Relação Essencial</h2>
+                <p>O hardware precisa do software para funcionar. O sistema operacional (Windows, Linux, macOS) gerencia o uso dos componentes físicos.</p>
+                <img src="" alt="ClocarImagemAqui" class="topic-image">
+            </section>
+            
+            <section class="pt-5">
+                <h2>Evolução do Hardware</h2>
+                <p>Novas tecnologias como processadores quânticos, memórias NVMe e GPUs dedicadas à IA estão revolucionando o desempenho dos dispositivos.</p>
+                <img src="" alt="ClocarImagemAqui" class="topic-image">
+            </section>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
